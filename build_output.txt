@@ -1,0 +1,13 @@
+
+> promptwar@0.0.0 build
+> tsc -b && vite build
+
+src/App.tsx(1,8): error TS6133: 'React' is declared but its value is never read.
+src/App.tsx(6,10): error TS1484: 'GraphNode' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/ActionPanel.tsx(2,10): error TS1484: 'GraphNode' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/ExportToolbar.tsx(4,18): error TS7016: Could not find a declaration file for module 'papaparse'. 'C:/Users/wahra/.gemini/antigravity/scratch/PromptWar/node_modules/papaparse/papaparse.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/papaparse` if it exists or add a new declaration (.d.ts) file containing `declare module 'papaparse';`
+src/components/NetworkGraph.tsx(3,10): error TS1484: 'GraphData' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/NetworkGraph.tsx(3,21): error TS1484: 'GraphNode' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/utils/mockData.ts(1,10): error TS1484: 'GraphData' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/utils/mockData.ts(37,53): error TS1117: An object literal cannot have multiple properties with the same name.

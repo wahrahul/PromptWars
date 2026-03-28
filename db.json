@@ -1,0 +1,877 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "password"
+    },
+    {
+      "id": "5ratToPgHlI",
+      "username": "Rahul",
+      "password": "12345678"
+    },
+    {
+      "id": "W9XCknKWUYQ",
+      "username": "demo",
+      "password": "password"
+    }
+  ],
+  "graphData": [
+    {
+      "id": "default_graph_1",
+      "userId": "1",
+      "nodes": [
+        {
+          "id": "user_1",
+          "name": "Admin Profile",
+          "group": "User",
+          "val": 8,
+          "color": "#f0f6fc",
+          "desc": "Administrator Node"
+        },
+        {
+          "id": "gemini_core",
+          "name": "Gemini AI Core",
+          "group": "GeminiCore",
+          "val": 12,
+          "color": "#58a6ff",
+          "desc": "The intelligent engine orchestrating connections."
+        },
+        {
+          "id": "sys_gov",
+          "name": "Government Services",
+          "group": "System",
+          "val": 6,
+          "color": "#10b981",
+          "desc": "ID verification, benefits portal, taxation APIs."
+        },
+        {
+          "id": "soc_fb",
+          "name": "Facebook Network",
+          "group": "Social",
+          "val": 5,
+          "color": "#3b82f6",
+          "desc": "Community groups, event organizing, local peer support."
+        }
+      ],
+      "links": [
+        {
+          "source": "user_1",
+          "target": "gemini_core",
+          "label": "Queries / Intent"
+        },
+        {
+          "source": "gemini_core",
+          "target": "sys_gov",
+          "label": "Verify ID/Benefits"
+        },
+        {
+          "source": "gemini_core",
+          "target": "soc_fb",
+          "label": "Find Groups"
+        }
+      ]
+    },
+    {
+      "id": "J-PakRZqiok",
+      "userId": "5ratToPgHlI",
+      "nodes": [
+        {
+          "id": "user_node",
+          "name": "Rahul's Network",
+          "group": "User",
+          "val": 8,
+          "color": "#f0f6fc",
+          "desc": "Starting Node",
+          "__indexColor": "#f00034",
+          "index": 0,
+          "x": 0.393941104796128,
+          "y": 0.7506253605738511,
+          "vx": 0.0000024686901304069195,
+          "vy": 0.0000039831639003348696
+        },
+        {
+          "id": "sys_1774680130779",
+          "name": "Integrations API 28",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#dc0035",
+          "index": 1,
+          "x": 7.462922313920201,
+          "y": -35.335660418917485,
+          "vx": 0.000002996657868038623,
+          "vy": 0.0000027220773317336976
+        },
+        {
+          "id": "sys_1774680132906",
+          "name": "Integrations API 7",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#c80036",
+          "index": 2,
+          "x": -10.527276843798488,
+          "y": -35.596578730565916,
+          "vx": 0.0000018212151284963008,
+          "vy": 0.0000033139804406272895
+        },
+        {
+          "id": "sys_1774680133950",
+          "name": "Integrations API 95",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#b40037",
+          "index": 3,
+          "x": -22.411551883869606,
+          "y": -36.024162949559965,
+          "vx": 0.000001725773596734798,
+          "vy": 0.000004925190312460584
+        },
+        {
+          "id": "sys_1774680134765",
+          "name": "Integrations API 86",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#a00038",
+          "index": 4,
+          "x": -24.739544667451817,
+          "y": -24.958611785905436,
+          "vx": 0.0000025264548699314884,
+          "vy": 0.000004893554660426459
+        },
+        {
+          "id": "sys_1774680135433",
+          "name": "Integrations API 91",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#8c0039",
+          "index": 5,
+          "x": -1.3703252506401806,
+          "y": -42.437393763746755,
+          "vx": 0.0000025101524374846035,
+          "vy": 0.000004982576600054397
+        },
+        {
+          "id": "sys_1774680136018",
+          "name": "Integrations API 1",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#78003a",
+          "index": 6,
+          "x": 18.200826463131303,
+          "y": -38.6783235729026,
+          "vx": 0.00000402302347258204,
+          "vy": 0.000005562533966394731
+        },
+        {
+          "id": "sys_1774680136581",
+          "name": "Integrations API 65",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#64003b",
+          "index": 7,
+          "x": 36.949027500288814,
+          "y": 15.97387499591159,
+          "vx": 0.0000029126741426893197,
+          "vy": 0.000004625444479488322
+        },
+        {
+          "id": "sys_1774680143224",
+          "name": "Integrations API 62",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#50003c",
+          "index": 8,
+          "x": 24.91377354993031,
+          "y": -29.08556170876567,
+          "vx": 0.000002048682025031103,
+          "vy": 0.000006240654958592659
+        },
+        {
+          "id": "sys_1774680145451",
+          "name": "Integrations API 58",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#3c003d",
+          "index": 9,
+          "x": -35.99396756000588,
+          "y": -22.747296122879582,
+          "vx": 0.0000025769235171045886,
+          "vy": 0.00000507762249372209
+        },
+        {
+          "id": "sys_1774680145946",
+          "name": "Integrations API 65",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#28003e",
+          "index": 10,
+          "x": -37.69592813950457,
+          "y": 7.327212364547121,
+          "vx": 0.000003778601588477597,
+          "vy": 0.0000057144141725242575
+        },
+        {
+          "id": "sys_1774680146158",
+          "name": "Integrations API 36",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#14003f",
+          "index": 11,
+          "x": -42.54463765107372,
+          "y": -2.6889402213019187,
+          "vx": 0.000003065009573347058,
+          "vy": 0.00000661268589345265
+        },
+        {
+          "id": "sys_1774680146365",
+          "name": "Integrations API 88",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#000040",
+          "index": 12,
+          "x": 34.50926726411101,
+          "y": -13.315229322655524,
+          "vx": 0.0000030281021511211394,
+          "vy": 0.000004882825788807549
+        },
+        {
+          "id": "sys_1774680146557",
+          "name": "Integrations API 95",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#ec0041",
+          "index": 13,
+          "x": 6.167290445933803,
+          "y": 37.43931854215985,
+          "vx": 0.000003579618685423702,
+          "vy": 0.000006121109192569773
+        },
+        {
+          "id": "sys_1774680146791",
+          "name": "Integrations API 44",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#d80042",
+          "index": 14,
+          "x": 35.23978798500146,
+          "y": -24.317238392141924,
+          "vx": 0.0000028313433343848665,
+          "vy": 0.000004574032714566364
+        },
+        {
+          "id": "sys_1774680147018",
+          "name": "Integrations API 29",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#c40043",
+          "index": 15,
+          "x": -36.620233394117584,
+          "y": 17.94328618558221,
+          "vx": 0.000002201925659561594,
+          "vy": 0.000005814938625290942
+        },
+        {
+          "id": "sys_1774680147436",
+          "name": "Integrations API 50",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#b00044",
+          "index": 16,
+          "x": -21.278882331914314,
+          "y": 30.2581694869752,
+          "vx": 0.0000033623883120805784,
+          "vy": 0.000005257823633174928
+        },
+        {
+          "id": "sys_1774681120429",
+          "name": "Integrations API 87",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#9c0045",
+          "index": 17,
+          "x": 23.03076407335423,
+          "y": 30.11660738483798,
+          "vx": 0.000003007416707381547,
+          "vy": 0.0000045684106583502275
+        },
+        {
+          "id": "sys_1774681121629",
+          "name": "Integrations API 63",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#880046",
+          "index": 18,
+          "x": 39.55360097511775,
+          "y": 5.601926504463269,
+          "vx": 0.000002595166805713966,
+          "vy": 0.000004648451025940833
+        },
+        {
+          "id": "sys_1774681174802",
+          "name": "Integrations API 33",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#740047",
+          "index": 19,
+          "x": -31.730528284524777,
+          "y": 28.29898004252138,
+          "vx": 0.0000034621147051778445,
+          "vy": 0.000005261643333275263
+        },
+        {
+          "id": "sys_1774681301916",
+          "name": "Integrations API 24",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#600048",
+          "index": 20,
+          "x": -15.180135214631658,
+          "y": 39.08201393084504,
+          "vx": 0.0000030726147069370643,
+          "vy": 0.00000530367165987174
+        },
+        {
+          "id": "sys_1774681339184",
+          "name": "Integrations API 64",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#4c0049",
+          "index": 21,
+          "x": 42.12084349369975,
+          "y": -5.254343305411275,
+          "vx": 0.0000030707464967314407,
+          "vy": 0.0000047231060926772505
+        },
+        {
+          "id": "sys_1774682176879",
+          "name": "Integrations API 88",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#38004a",
+          "index": 22,
+          "x": 17.08548296411263,
+          "y": 39.90107812948998,
+          "vx": 0.0000034972174436173413,
+          "vy": 0.000004087339872642756
+        },
+        {
+          "id": "sys_1774682182754",
+          "name": "Integrations API 8",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#24004b",
+          "index": 23,
+          "x": 33.47399511851897,
+          "y": 26.670935121977315,
+          "vx": 0.000002511061992866127,
+          "vy": 0.000004100996120888883
+        },
+        {
+          "id": "sys_1774682187412",
+          "name": "Integrations API 27",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#10004c",
+          "index": 24,
+          "x": -3.937989295017004,
+          "y": 41.78319057348847,
+          "vx": 0.000002868409253957738,
+          "vy": 0.000003234456872206202
+        },
+        {
+          "id": "sys_1774682211196",
+          "name": "Integrations API 4",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#fc004d",
+          "index": 25,
+          "x": -35.07045008823961,
+          "y": -10.707752583435536,
+          "vx": 0.000001105142529559712,
+          "vy": 0.000004512478902992244
+        },
+        {
+          "id": "sys_1774683234134",
+          "name": "Integrations API 98",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database."
+        }
+      ],
+      "links": [
+        {
+          "source": "user_node",
+          "target": "sys_1774680130779",
+          "label": "Linked API",
+          "__indexColor": "#e8004e",
+          "__controlPoints": null,
+          "index": 0,
+          "__photons": [
+            {
+              "__progressRatio": 0.5450000000000017
+            },
+            {
+              "__progressRatio": 0.045000000000001775
+            }
+          ]
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774680132906",
+          "label": "Linked API",
+          "__indexColor": "#d4004f",
+          "__controlPoints": null,
+          "index": 1,
+          "__photons": [
+            {
+              "__progressRatio": 0.5450000000000017
+            },
+            {
+              "__progressRatio": 0.045000000000001775
+            }
+          ]
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774680133950",
+          "label": "Linked API",
+          "__indexColor": "#c00050",
+          "__controlPoints": null,
+          "index": 2,
+          "__photons": [
+            {
+              "__progressRatio": 0.5450000000000017
+            },
+            {
+              "__progressRatio": 0.045000000000001775
+            }
+          ]
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774680134765",
+          "label": "Linked API",
+          "__indexColor": "#ac0051",
+          "__controlPoints": null,
+          "index": 3,
+          "__photons": [
+            {
+              "__progressRatio": 0.5450000000000017
+            },
+            {
+              "__progressRatio": 0.045000000000001775
+            }
+          ]
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774680135433",
+          "label": "Linked API",
+          "__indexColor": "#980052",
+          "__controlPoints": null,
+          "index": 4,
+          "__photons": [
+            {
+              "__progressRatio": 0.5450000000000017
+            },
+            {
+              "__progressRatio": 0.045000000000001775
+            }
+          ]
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774680136018",
+          "label": "Linked API",
+          "__indexColor": "#840053",
+          "__controlPoints": null,
+          "index": 5,
+          "__photons": [
+            {
+              "__progressRatio": 0.5450000000000017
+            },
+            {
+              "__progressRatio": 0.045000000000001775
+            }
+          ]
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774680136581",
+          "label": "Linked API",
+          "__indexColor": "#700054",
+          "__controlPoints": null,
+          "index": 6,
+          "__photons": [
+            {
+              "__progressRatio": 0.5450000000000017
+            },
+            {
+              "__progressRatio": 0.045000000000001775
+            }
+          ]
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774680143224",
+          "label": "Linked API",
+          "__indexColor": "#5c0055",
+          "__controlPoints": null,
+          "index": 7,
+          "__photons": [
+            {
+              "__progressRatio": 0.5450000000000017
+            },
+            {
+              "__progressRatio": 0.045000000000001775
+            }
+          ]
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774680145451",
+          "label": "Linked API",
+          "__indexColor": "#480056",
+          "__controlPoints": null,
+          "index": 8,
+          "__photons": [
+            {
+              "__progressRatio": 0.5450000000000017
+            },
+            {
+              "__progressRatio": 0.045000000000001775
+            }
+          ]
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774680145946",
+          "label": "Linked API",
+          "__indexColor": "#340057",
+          "__controlPoints": null,
+          "index": 9,
+          "__photons": [
+            {
+              "__progressRatio": 0.5450000000000017
+            },
+            {
+              "__progressRatio": 0.045000000000001775
+            }
+          ]
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774680146158",
+          "label": "Linked API",
+          "__indexColor": "#200058",
+          "__controlPoints": null,
+          "index": 10,
+          "__photons": [
+            {
+              "__progressRatio": 0.5450000000000017
+            },
+            {
+              "__progressRatio": 0.045000000000001775
+            }
+          ]
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774680146365",
+          "label": "Linked API",
+          "__indexColor": "#0c0059",
+          "__controlPoints": null,
+          "index": 11,
+          "__photons": [
+            {
+              "__progressRatio": 0.5450000000000017
+            },
+            {
+              "__progressRatio": 0.045000000000001775
+            }
+          ]
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774680146557",
+          "label": "Linked API",
+          "__indexColor": "#f8005a",
+          "__controlPoints": null,
+          "index": 12,
+          "__photons": [
+            {
+              "__progressRatio": 0.5450000000000017
+            },
+            {
+              "__progressRatio": 0.045000000000001775
+            }
+          ]
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774680146791",
+          "label": "Linked API",
+          "__indexColor": "#e4005b",
+          "__controlPoints": null,
+          "index": 13,
+          "__photons": [
+            {
+              "__progressRatio": 0.5450000000000017
+            },
+            {
+              "__progressRatio": 0.045000000000001775
+            }
+          ]
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774680147018",
+          "label": "Linked API",
+          "__indexColor": "#d0005c",
+          "__controlPoints": null,
+          "index": 14,
+          "__photons": [
+            {
+              "__progressRatio": 0.5450000000000017
+            },
+            {
+              "__progressRatio": 0.045000000000001775
+            }
+          ]
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774680147436",
+          "label": "Linked API",
+          "__indexColor": "#bc005d",
+          "__photons": [
+            {
+              "__progressRatio": 0.5450000000000017
+            },
+            {
+              "__progressRatio": 0.045000000000001775
+            }
+          ],
+          "__controlPoints": null,
+          "index": 15
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774681120429",
+          "label": "Linked API",
+          "__indexColor": "#a8005e",
+          "__photons": [
+            {
+              "__progressRatio": 0.5450000000000017
+            },
+            {
+              "__progressRatio": 0.045000000000001775
+            }
+          ],
+          "__controlPoints": null,
+          "index": 16
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774681121629",
+          "label": "Linked API",
+          "__indexColor": "#94005f",
+          "__photons": [
+            {
+              "__progressRatio": 0.5450000000000017
+            },
+            {
+              "__progressRatio": 0.045000000000001775
+            }
+          ],
+          "__controlPoints": null,
+          "index": 17
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774681174802",
+          "label": "Linked API",
+          "__indexColor": "#800060",
+          "__photons": [
+            {
+              "__progressRatio": 0.5450000000000017
+            },
+            {
+              "__progressRatio": 0.045000000000001775
+            }
+          ],
+          "__controlPoints": null,
+          "index": 18
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774681301916",
+          "label": "Linked API",
+          "__indexColor": "#6c0061",
+          "__photons": [
+            {
+              "__progressRatio": 0.5450000000000017
+            },
+            {
+              "__progressRatio": 0.045000000000001775
+            }
+          ],
+          "__controlPoints": null,
+          "index": 19
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774681339184",
+          "label": "Linked API",
+          "__indexColor": "#580062",
+          "__photons": [
+            {
+              "__progressRatio": 0.5450000000000017
+            },
+            {
+              "__progressRatio": 0.045000000000001775
+            }
+          ],
+          "__controlPoints": null,
+          "index": 20
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774682176879",
+          "label": "Linked API",
+          "__indexColor": "#440063",
+          "__photons": [
+            {
+              "__progressRatio": 0.5450000000000017
+            },
+            {
+              "__progressRatio": 0.045000000000001775
+            }
+          ],
+          "__controlPoints": null,
+          "index": 21
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774682182754",
+          "label": "Linked API",
+          "__indexColor": "#300064",
+          "__photons": [
+            {
+              "__progressRatio": 0.5450000000000017
+            },
+            {
+              "__progressRatio": 0.045000000000001775
+            }
+          ],
+          "index": 22,
+          "__controlPoints": null
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774682187412",
+          "label": "Linked API",
+          "__indexColor": "#1c0065",
+          "__photons": [
+            {
+              "__progressRatio": 0.5450000000000017
+            },
+            {
+              "__progressRatio": 0.045000000000001775
+            }
+          ],
+          "__controlPoints": null,
+          "index": 23
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774682211196",
+          "label": "Linked API",
+          "__indexColor": "#080066",
+          "__photons": [
+            {
+              "__progressRatio": 0.5450000000000017
+            },
+            {
+              "__progressRatio": 0.045000000000001775
+            }
+          ],
+          "__controlPoints": null,
+          "index": 24
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774683234134",
+          "label": "Linked API"
+        }
+      ]
+    },
+    {
+      "id": "7BBLhR-Hf4k",
+      "userId": "W9XCknKWUYQ",
+      "nodes": [
+        {
+          "id": "user_node",
+          "name": "demo's Network",
+          "group": "User",
+          "val": 8,
+          "color": "#f0f6fc",
+          "desc": "Starting Node"
+        }
+      ],
+      "links": []
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
