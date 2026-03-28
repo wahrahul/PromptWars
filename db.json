@@ -83,12 +83,12 @@
           "val": 8,
           "color": "#f0f6fc",
           "desc": "Starting Node",
-          "__indexColor": "#f00034",
+          "__indexColor": "#a00038",
           "index": 0,
-          "x": 0.393941104796128,
-          "y": 0.7506253605738511,
-          "vx": 0.0000024686901304069195,
-          "vy": 0.0000039831639003348696
+          "x": -0.02668416085671868,
+          "y": 1.1092179120927115,
+          "vx": 3.1721997347810586e-9,
+          "vy": 9.151632824904616e-8
         },
         {
           "id": "sys_1774680130779",
@@ -97,12 +97,12 @@
           "val": 6,
           "color": "#f59e0b",
           "desc": "Dynamically generated linked node via local database.",
-          "__indexColor": "#dc0035",
+          "__indexColor": "#8c0039",
           "index": 1,
-          "x": 7.462922313920201,
-          "y": -35.335660418917485,
-          "vx": 0.000002996657868038623,
-          "vy": 0.0000027220773317336976
+          "x": 15.346190333530581,
+          "y": -31.38609178753121,
+          "vx": -2.945456778375017e-8,
+          "vy": 3.55389654336737e-8
         },
         {
           "id": "sys_1774680132906",
@@ -111,12 +111,12 @@
           "val": 6,
           "color": "#f59e0b",
           "desc": "Dynamically generated linked node via local database.",
-          "__indexColor": "#c80036",
+          "__indexColor": "#78003a",
           "index": 2,
-          "x": -10.527276843798488,
-          "y": -35.596578730565916,
-          "vx": 0.0000018212151284963008,
-          "vy": 0.0000033139804406272895
+          "x": -9.722530639380107,
+          "y": -35.24074276138388,
+          "vx": -2.757173621955757e-8,
+          "vy": 8.682350127661223e-8
         },
         {
           "id": "sys_1774680133950",
@@ -125,12 +125,12 @@
           "val": 6,
           "color": "#f59e0b",
           "desc": "Dynamically generated linked node via local database.",
-          "__indexColor": "#b40037",
+          "__indexColor": "#64003b",
           "index": 3,
-          "x": -22.411551883869606,
-          "y": -36.024162949559965,
-          "vx": 0.000001725773596734798,
-          "vy": 0.000004925190312460584
+          "x": -21.571061537842443,
+          "y": -38.12761277832201,
+          "vx": -2.9586315176016592e-8,
+          "vy": 1.1426843345952262e-7
         },
         {
           "id": "sys_1774680134765",
@@ -139,12 +139,12 @@
           "val": 6,
           "color": "#f59e0b",
           "desc": "Dynamically generated linked node via local database.",
-          "__indexColor": "#a00038",
+          "__indexColor": "#50003c",
           "index": 4,
-          "x": -24.739544667451817,
-          "y": -24.958611785905436,
-          "vx": 0.0000025264548699314884,
-          "vy": 0.000004893554660426459
+          "x": -22.999408389627003,
+          "y": -26.525716258381873,
+          "vx": -2.543140355894909e-9,
+          "vy": 1.1284216399886005e-7
         },
         {
           "id": "sys_1774680135433",
@@ -153,12 +153,12 @@
           "val": 6,
           "color": "#f59e0b",
           "desc": "Dynamically generated linked node via local database.",
-          "__indexColor": "#8c0039",
+          "__indexColor": "#3c003d",
           "index": 5,
-          "x": -1.3703252506401806,
-          "y": -42.437393763746755,
-          "vx": 0.0000025101524374846035,
-          "vy": 0.000004982576600054397
+          "x": -2.095000219362143,
+          "y": -42.461706992939945,
+          "vx": -1.523931065743445e-9,
+          "vy": 1.2335071600211364e-7
         },
         {
           "id": "sys_1774680136018",
@@ -167,12 +167,12 @@
           "val": 6,
           "color": "#f59e0b",
           "desc": "Dynamically generated linked node via local database.",
-          "__indexColor": "#78003a",
+          "__indexColor": "#28003e",
           "index": 6,
-          "x": 18.200826463131303,
-          "y": -38.6783235729026,
-          "vx": 0.00000402302347258204,
-          "vy": 0.000005562533966394731
+          "x": 9.095263571323084,
+          "y": -40.75593328995525,
+          "vx": 2.8046190268112727e-9,
+          "vy": 7.344982771172762e-8
         },
         {
           "id": "sys_1774680136581",
@@ -181,12 +181,12 @@
           "val": 6,
           "color": "#f59e0b",
           "desc": "Dynamically generated linked node via local database.",
-          "__indexColor": "#64003b",
+          "__indexColor": "#14003f",
           "index": 7,
-          "x": 36.949027500288814,
-          "y": 15.97387499591159,
-          "vx": 0.0000029126741426893197,
-          "vy": 0.000004625444479488322
+          "x": 33.86931895163802,
+          "y": 17.49011185148158,
+          "vx": -1.4866562706573306e-8,
+          "vy": 1.0368416728010301e-7
         },
         {
           "id": "sys_1774680143224",
@@ -195,12 +195,12 @@
           "val": 6,
           "color": "#f59e0b",
           "desc": "Dynamically generated linked node via local database.",
-          "__indexColor": "#50003c",
+          "__indexColor": "#000040",
           "index": 8,
-          "x": 24.91377354993031,
-          "y": -29.08556170876567,
-          "vx": 0.000002048682025031103,
-          "vy": 0.000006240654958592659
+          "x": 25.113051396060598,
+          "y": -35.32599499241761,
+          "vx": 3.828246351246514e-8,
+          "vy": 1.73924972190711e-7
         },
         {
           "id": "sys_1774680145451",
@@ -209,12 +209,12 @@
           "val": 6,
           "color": "#f59e0b",
           "desc": "Dynamically generated linked node via local database.",
-          "__indexColor": "#3c003d",
+          "__indexColor": "#ec0041",
           "index": 9,
-          "x": -35.99396756000588,
-          "y": -22.747296122879582,
-          "vx": 0.0000025769235171045886,
-          "vy": 0.00000507762249372209
+          "x": -34.71542885647381,
+          "y": -26.47053711209917,
+          "vx": -4.890209416728243e-9,
+          "vy": 1.2939024719349779e-7
         },
         {
           "id": "sys_1774680145946",
@@ -223,12 +223,12 @@
           "val": 6,
           "color": "#f59e0b",
           "desc": "Dynamically generated linked node via local database.",
-          "__indexColor": "#28003e",
+          "__indexColor": "#d80042",
           "index": 10,
-          "x": -37.69592813950457,
-          "y": 7.327212364547121,
-          "vx": 0.000003778601588477597,
-          "vy": 0.0000057144141725242575
+          "x": -36.363789925209474,
+          "y": 2.050897675987861,
+          "vx": 1.5500372637475126e-8,
+          "vy": 1.3092407360628105e-7
         },
         {
           "id": "sys_1774680146158",
@@ -237,12 +237,12 @@
           "val": 6,
           "color": "#f59e0b",
           "desc": "Dynamically generated linked node via local database.",
-          "__indexColor": "#14003f",
+          "__indexColor": "#c40043",
           "index": 11,
-          "x": -42.54463765107372,
-          "y": -2.6889402213019187,
-          "vx": 0.000003065009573347058,
-          "vy": 0.00000661268589345265
+          "x": -43.686435155497215,
+          "y": -6.2673529964077135,
+          "vx": 4.024814882195623e-9,
+          "vy": 1.4614165277873085e-7
         },
         {
           "id": "sys_1774680146365",
@@ -251,12 +251,12 @@
           "val": 6,
           "color": "#f59e0b",
           "desc": "Dynamically generated linked node via local database.",
-          "__indexColor": "#000040",
+          "__indexColor": "#b00044",
           "index": 12,
-          "x": 34.50926726411101,
-          "y": -13.315229322655524,
-          "vx": 0.0000030281021511211394,
-          "vy": 0.000004882825788807549
+          "x": 31.91407218753932,
+          "y": -16.083992778471035,
+          "vx": -1.1376163528963542e-8,
+          "vy": 1.2029176314656252e-7
         },
         {
           "id": "sys_1774680146557",
@@ -265,12 +265,12 @@
           "val": 6,
           "color": "#f59e0b",
           "desc": "Dynamically generated linked node via local database.",
-          "__indexColor": "#ec0041",
+          "__indexColor": "#9c0045",
           "index": 13,
-          "x": 6.167290445933803,
-          "y": 37.43931854215985,
-          "vx": 0.000003579618685423702,
-          "vy": 0.000006121109192569773
+          "x": 5.917867158609009,
+          "y": 37.26019198087126,
+          "vx": 9.997807552140307e-9,
+          "vy": 1.1785858482828935e-7
         },
         {
           "id": "sys_1774680146791",
@@ -279,12 +279,12 @@
           "val": 6,
           "color": "#f59e0b",
           "desc": "Dynamically generated linked node via local database.",
-          "__indexColor": "#d80042",
+          "__indexColor": "#880046",
           "index": 14,
-          "x": 35.23978798500146,
-          "y": -24.317238392141924,
-          "vx": 0.0000028313433343848665,
-          "vy": 0.000004574032714566364
+          "x": 33.7533493289907,
+          "y": -26.23740026860643,
+          "vx": 3.0834858405352036e-8,
+          "vy": 1.2948993570061317e-7
         },
         {
           "id": "sys_1774680147018",
@@ -293,12 +293,12 @@
           "val": 6,
           "color": "#f59e0b",
           "desc": "Dynamically generated linked node via local database.",
-          "__indexColor": "#c40043",
+          "__indexColor": "#740047",
           "index": 15,
-          "x": -36.620233394117584,
-          "y": 17.94328618558221,
-          "vx": 0.000002201925659561594,
-          "vy": 0.000005814938625290942
+          "x": -41.20316014330044,
+          "y": 11.947622223838218,
+          "vx": 5.5900406620816235e-9,
+          "vy": 1.2906580327116944e-7
         },
         {
           "id": "sys_1774680147436",
@@ -307,12 +307,12 @@
           "val": 6,
           "color": "#f59e0b",
           "desc": "Dynamically generated linked node via local database.",
-          "__indexColor": "#b00044",
+          "__indexColor": "#600048",
           "index": 16,
-          "x": -21.278882331914314,
-          "y": 30.2581694869752,
-          "vx": 0.0000033623883120805784,
-          "vy": 0.000005257823633174928
+          "x": -26.443972107840356,
+          "y": 26.267716089243606,
+          "vx": 1.372601737659976e-8,
+          "vy": 1.224881812554869e-7
         },
         {
           "id": "sys_1774681120429",
@@ -321,12 +321,12 @@
           "val": 6,
           "color": "#f59e0b",
           "desc": "Dynamically generated linked node via local database.",
-          "__indexColor": "#9c0045",
+          "__indexColor": "#4c0049",
           "index": 17,
-          "x": 23.03076407335423,
-          "y": 30.11660738483798,
-          "vx": 0.000003007416707381547,
-          "vy": 0.0000045684106583502275
+          "x": 22.30658591519651,
+          "y": 30.955804913896092,
+          "vx": 8.468568176666546e-9,
+          "vy": 1.1835863497964795e-7
         },
         {
           "id": "sys_1774681121629",
@@ -335,12 +335,12 @@
           "val": 6,
           "color": "#f59e0b",
           "desc": "Dynamically generated linked node via local database.",
-          "__indexColor": "#880046",
+          "__indexColor": "#38004a",
           "index": 18,
-          "x": 39.55360097511775,
-          "y": 5.601926504463269,
-          "vx": 0.000002595166805713966,
-          "vy": 0.000004648451025940833
+          "x": 42.69424670709651,
+          "y": 10.094115404170632,
+          "vx": 5.339321943336456e-9,
+          "vy": 1.3292017056898322e-7
         },
         {
           "id": "sys_1774681174802",
@@ -349,12 +349,12 @@
           "val": 6,
           "color": "#f59e0b",
           "desc": "Dynamically generated linked node via local database.",
-          "__indexColor": "#740047",
+          "__indexColor": "#24004b",
           "index": 19,
-          "x": -31.730528284524777,
-          "y": 28.29898004252138,
-          "vx": 0.0000034621147051778445,
-          "vy": 0.000005261643333275263
+          "x": -36.67226800350792,
+          "y": 23.025874123887707,
+          "vx": 1.3957581589801152e-8,
+          "vy": 1.260583436026068e-7
         },
         {
           "id": "sys_1774681301916",
@@ -363,12 +363,12 @@
           "val": 6,
           "color": "#f59e0b",
           "desc": "Dynamically generated linked node via local database.",
-          "__indexColor": "#600048",
+          "__indexColor": "#10004c",
           "index": 20,
-          "x": -15.180135214631658,
-          "y": 39.08201393084504,
-          "vx": 0.0000030726147069370643,
-          "vy": 0.00000530367165987174
+          "x": -23.864231691316533,
+          "y": 37.31257063259798,
+          "vx": 2.192075503553567e-8,
+          "vy": 1.2582960375584302e-7
         },
         {
           "id": "sys_1774681339184",
@@ -377,12 +377,12 @@
           "val": 6,
           "color": "#f59e0b",
           "desc": "Dynamically generated linked node via local database.",
-          "__indexColor": "#4c0049",
+          "__indexColor": "#fc004d",
           "index": 21,
-          "x": 42.12084349369975,
-          "y": -5.254343305411275,
-          "vx": 0.0000030707464967314407,
-          "vy": 0.0000047231060926772505
+          "x": 37.02655895388808,
+          "y": 0.13330125951596145,
+          "vx": 2.4122277017697977e-8,
+          "vy": 1.195535620016133e-7
         },
         {
           "id": "sys_1774682176879",
@@ -391,12 +391,12 @@
           "val": 6,
           "color": "#f59e0b",
           "desc": "Dynamically generated linked node via local database.",
-          "__indexColor": "#38004a",
+          "__indexColor": "#e8004e",
           "index": 22,
-          "x": 17.08548296411263,
-          "y": 39.90107812948998,
-          "vx": 0.0000034972174436173413,
-          "vy": 0.000004087339872642756
+          "x": 16.661132031222582,
+          "y": 41.12210789336757,
+          "vx": 4.249245533474601e-9,
+          "vy": 1.0547181964711414e-7
         },
         {
           "id": "sys_1774682182754",
@@ -405,12 +405,12 @@
           "val": 6,
           "color": "#f59e0b",
           "desc": "Dynamically generated linked node via local database.",
-          "__indexColor": "#24004b",
+          "__indexColor": "#d4004f",
           "index": 23,
-          "x": 33.47399511851897,
-          "y": 26.670935121977315,
-          "vx": 0.000002511061992866127,
-          "vy": 0.000004100996120888883
+          "x": 33.7115459863692,
+          "y": 29.258542247950178,
+          "vx": 6.173752808184917e-9,
+          "vy": 1.0108316543454988e-7
         },
         {
           "id": "sys_1774682187412",
@@ -419,12 +419,12 @@
           "val": 6,
           "color": "#f59e0b",
           "desc": "Dynamically generated linked node via local database.",
-          "__indexColor": "#10004c",
+          "__indexColor": "#c00050",
           "index": 24,
-          "x": -3.937989295017004,
-          "y": 41.78319057348847,
-          "vx": 0.000002868409253957738,
-          "vy": 0.000003234456872206202
+          "x": -3.0172353846548057,
+          "y": 44.16301116123239,
+          "vx": -3.888470870111592e-9,
+          "vy": 1.0248656507127121e-7
         },
         {
           "id": "sys_1774682211196",
@@ -433,16 +433,44 @@
           "val": 6,
           "color": "#f59e0b",
           "desc": "Dynamically generated linked node via local database.",
-          "__indexColor": "#fc004d",
+          "__indexColor": "#ac0051",
           "index": 25,
-          "x": -35.07045008823961,
-          "y": -10.707752583435536,
-          "vx": 0.000001105142529559712,
-          "vy": 0.000004512478902992244
+          "x": -35.28788204647992,
+          "y": -14.576744361949025,
+          "vx": -1.978943041039672e-8,
+          "vy": 1.1851967679292456e-7
         },
         {
           "id": "sys_1774683234134",
           "name": "Integrations API 98",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#980052",
+          "index": 26,
+          "x": 42.43232784398356,
+          "y": -10.052581165336724,
+          "vx": 2.0673874138515917e-9,
+          "vy": 1.0512848967830715e-7
+        },
+        {
+          "id": "sys_1774689035081",
+          "name": "Integrations API 80",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#840053",
+          "index": 27,
+          "x": -12.172422017962111,
+          "y": 37.321325347692735,
+          "vx": 2.139519942339806e-8,
+          "vy": 7.756531523352169e-8
+        },
+        {
+          "id": "sys_1774689564720",
+          "name": "Integrations API 42",
           "group": "System",
           "val": 6,
           "color": "#f59e0b",
@@ -454,15 +482,15 @@
           "source": "user_node",
           "target": "sys_1774680130779",
           "label": "Linked API",
-          "__indexColor": "#e8004e",
+          "__indexColor": "#700054",
           "__controlPoints": null,
           "index": 0,
           "__photons": [
             {
-              "__progressRatio": 0.5450000000000017
+              "__progressRatio": 0.4450000000000023
             },
             {
-              "__progressRatio": 0.045000000000001775
+              "__progressRatio": 0.9450000000000025
             }
           ]
         },
@@ -470,15 +498,15 @@
           "source": "user_node",
           "target": "sys_1774680132906",
           "label": "Linked API",
-          "__indexColor": "#d4004f",
+          "__indexColor": "#5c0055",
           "__controlPoints": null,
           "index": 1,
           "__photons": [
             {
-              "__progressRatio": 0.5450000000000017
+              "__progressRatio": 0.4450000000000023
             },
             {
-              "__progressRatio": 0.045000000000001775
+              "__progressRatio": 0.9450000000000025
             }
           ]
         },
@@ -486,15 +514,15 @@
           "source": "user_node",
           "target": "sys_1774680133950",
           "label": "Linked API",
-          "__indexColor": "#c00050",
+          "__indexColor": "#480056",
           "__controlPoints": null,
           "index": 2,
           "__photons": [
             {
-              "__progressRatio": 0.5450000000000017
+              "__progressRatio": 0.4450000000000023
             },
             {
-              "__progressRatio": 0.045000000000001775
+              "__progressRatio": 0.9450000000000025
             }
           ]
         },
@@ -502,15 +530,15 @@
           "source": "user_node",
           "target": "sys_1774680134765",
           "label": "Linked API",
-          "__indexColor": "#ac0051",
+          "__indexColor": "#340057",
           "__controlPoints": null,
           "index": 3,
           "__photons": [
             {
-              "__progressRatio": 0.5450000000000017
+              "__progressRatio": 0.4450000000000023
             },
             {
-              "__progressRatio": 0.045000000000001775
+              "__progressRatio": 0.9450000000000025
             }
           ]
         },
@@ -518,15 +546,15 @@
           "source": "user_node",
           "target": "sys_1774680135433",
           "label": "Linked API",
-          "__indexColor": "#980052",
+          "__indexColor": "#200058",
           "__controlPoints": null,
           "index": 4,
           "__photons": [
             {
-              "__progressRatio": 0.5450000000000017
+              "__progressRatio": 0.4450000000000023
             },
             {
-              "__progressRatio": 0.045000000000001775
+              "__progressRatio": 0.9450000000000025
             }
           ]
         },
@@ -534,15 +562,15 @@
           "source": "user_node",
           "target": "sys_1774680136018",
           "label": "Linked API",
-          "__indexColor": "#840053",
+          "__indexColor": "#0c0059",
           "__controlPoints": null,
           "index": 5,
           "__photons": [
             {
-              "__progressRatio": 0.5450000000000017
+              "__progressRatio": 0.4450000000000023
             },
             {
-              "__progressRatio": 0.045000000000001775
+              "__progressRatio": 0.9450000000000025
             }
           ]
         },
@@ -550,15 +578,15 @@
           "source": "user_node",
           "target": "sys_1774680136581",
           "label": "Linked API",
-          "__indexColor": "#700054",
+          "__indexColor": "#f8005a",
           "__controlPoints": null,
           "index": 6,
           "__photons": [
             {
-              "__progressRatio": 0.5450000000000017
+              "__progressRatio": 0.4450000000000023
             },
             {
-              "__progressRatio": 0.045000000000001775
+              "__progressRatio": 0.9450000000000025
             }
           ]
         },
@@ -566,15 +594,15 @@
           "source": "user_node",
           "target": "sys_1774680143224",
           "label": "Linked API",
-          "__indexColor": "#5c0055",
+          "__indexColor": "#e4005b",
           "__controlPoints": null,
           "index": 7,
           "__photons": [
             {
-              "__progressRatio": 0.5450000000000017
+              "__progressRatio": 0.4450000000000023
             },
             {
-              "__progressRatio": 0.045000000000001775
+              "__progressRatio": 0.9450000000000025
             }
           ]
         },
@@ -582,15 +610,15 @@
           "source": "user_node",
           "target": "sys_1774680145451",
           "label": "Linked API",
-          "__indexColor": "#480056",
+          "__indexColor": "#d0005c",
           "__controlPoints": null,
           "index": 8,
           "__photons": [
             {
-              "__progressRatio": 0.5450000000000017
+              "__progressRatio": 0.4450000000000023
             },
             {
-              "__progressRatio": 0.045000000000001775
+              "__progressRatio": 0.9450000000000025
             }
           ]
         },
@@ -598,15 +626,15 @@
           "source": "user_node",
           "target": "sys_1774680145946",
           "label": "Linked API",
-          "__indexColor": "#340057",
+          "__indexColor": "#bc005d",
           "__controlPoints": null,
           "index": 9,
           "__photons": [
             {
-              "__progressRatio": 0.5450000000000017
+              "__progressRatio": 0.4450000000000023
             },
             {
-              "__progressRatio": 0.045000000000001775
+              "__progressRatio": 0.9450000000000025
             }
           ]
         },
@@ -614,15 +642,15 @@
           "source": "user_node",
           "target": "sys_1774680146158",
           "label": "Linked API",
-          "__indexColor": "#200058",
+          "__indexColor": "#a8005e",
           "__controlPoints": null,
           "index": 10,
           "__photons": [
             {
-              "__progressRatio": 0.5450000000000017
+              "__progressRatio": 0.4450000000000023
             },
             {
-              "__progressRatio": 0.045000000000001775
+              "__progressRatio": 0.9450000000000025
             }
           ]
         },
@@ -630,15 +658,15 @@
           "source": "user_node",
           "target": "sys_1774680146365",
           "label": "Linked API",
-          "__indexColor": "#0c0059",
+          "__indexColor": "#94005f",
           "__controlPoints": null,
           "index": 11,
           "__photons": [
             {
-              "__progressRatio": 0.5450000000000017
+              "__progressRatio": 0.4450000000000023
             },
             {
-              "__progressRatio": 0.045000000000001775
+              "__progressRatio": 0.9450000000000025
             }
           ]
         },
@@ -646,15 +674,15 @@
           "source": "user_node",
           "target": "sys_1774680146557",
           "label": "Linked API",
-          "__indexColor": "#f8005a",
+          "__indexColor": "#800060",
           "__controlPoints": null,
           "index": 12,
           "__photons": [
             {
-              "__progressRatio": 0.5450000000000017
+              "__progressRatio": 0.4450000000000023
             },
             {
-              "__progressRatio": 0.045000000000001775
+              "__progressRatio": 0.9450000000000025
             }
           ]
         },
@@ -662,15 +690,15 @@
           "source": "user_node",
           "target": "sys_1774680146791",
           "label": "Linked API",
-          "__indexColor": "#e4005b",
+          "__indexColor": "#6c0061",
           "__controlPoints": null,
           "index": 13,
           "__photons": [
             {
-              "__progressRatio": 0.5450000000000017
+              "__progressRatio": 0.4450000000000023
             },
             {
-              "__progressRatio": 0.045000000000001775
+              "__progressRatio": 0.9450000000000025
             }
           ]
         },
@@ -678,15 +706,15 @@
           "source": "user_node",
           "target": "sys_1774680147018",
           "label": "Linked API",
-          "__indexColor": "#d0005c",
+          "__indexColor": "#580062",
           "__controlPoints": null,
           "index": 14,
           "__photons": [
             {
-              "__progressRatio": 0.5450000000000017
+              "__progressRatio": 0.4450000000000023
             },
             {
-              "__progressRatio": 0.045000000000001775
+              "__progressRatio": 0.9450000000000025
             }
           ]
         },
@@ -694,13 +722,13 @@
           "source": "user_node",
           "target": "sys_1774680147436",
           "label": "Linked API",
-          "__indexColor": "#bc005d",
+          "__indexColor": "#440063",
           "__photons": [
             {
-              "__progressRatio": 0.5450000000000017
+              "__progressRatio": 0.4450000000000023
             },
             {
-              "__progressRatio": 0.045000000000001775
+              "__progressRatio": 0.9450000000000025
             }
           ],
           "__controlPoints": null,
@@ -710,13 +738,13 @@
           "source": "user_node",
           "target": "sys_1774681120429",
           "label": "Linked API",
-          "__indexColor": "#a8005e",
+          "__indexColor": "#300064",
           "__photons": [
             {
-              "__progressRatio": 0.5450000000000017
+              "__progressRatio": 0.4450000000000023
             },
             {
-              "__progressRatio": 0.045000000000001775
+              "__progressRatio": 0.9450000000000025
             }
           ],
           "__controlPoints": null,
@@ -726,13 +754,13 @@
           "source": "user_node",
           "target": "sys_1774681121629",
           "label": "Linked API",
-          "__indexColor": "#94005f",
+          "__indexColor": "#1c0065",
           "__photons": [
             {
-              "__progressRatio": 0.5450000000000017
+              "__progressRatio": 0.4450000000000023
             },
             {
-              "__progressRatio": 0.045000000000001775
+              "__progressRatio": 0.9450000000000025
             }
           ],
           "__controlPoints": null,
@@ -742,13 +770,13 @@
           "source": "user_node",
           "target": "sys_1774681174802",
           "label": "Linked API",
-          "__indexColor": "#800060",
+          "__indexColor": "#080066",
           "__photons": [
             {
-              "__progressRatio": 0.5450000000000017
+              "__progressRatio": 0.4450000000000023
             },
             {
-              "__progressRatio": 0.045000000000001775
+              "__progressRatio": 0.9450000000000025
             }
           ],
           "__controlPoints": null,
@@ -758,13 +786,13 @@
           "source": "user_node",
           "target": "sys_1774681301916",
           "label": "Linked API",
-          "__indexColor": "#6c0061",
+          "__indexColor": "#f40067",
           "__photons": [
             {
-              "__progressRatio": 0.5450000000000017
+              "__progressRatio": 0.4450000000000023
             },
             {
-              "__progressRatio": 0.045000000000001775
+              "__progressRatio": 0.9450000000000025
             }
           ],
           "__controlPoints": null,
@@ -774,13 +802,13 @@
           "source": "user_node",
           "target": "sys_1774681339184",
           "label": "Linked API",
-          "__indexColor": "#580062",
+          "__indexColor": "#e00068",
           "__photons": [
             {
-              "__progressRatio": 0.5450000000000017
+              "__progressRatio": 0.4450000000000023
             },
             {
-              "__progressRatio": 0.045000000000001775
+              "__progressRatio": 0.9450000000000025
             }
           ],
           "__controlPoints": null,
@@ -790,13 +818,13 @@
           "source": "user_node",
           "target": "sys_1774682176879",
           "label": "Linked API",
-          "__indexColor": "#440063",
+          "__indexColor": "#cc0069",
           "__photons": [
             {
-              "__progressRatio": 0.5450000000000017
+              "__progressRatio": 0.4450000000000023
             },
             {
-              "__progressRatio": 0.045000000000001775
+              "__progressRatio": 0.9450000000000025
             }
           ],
           "__controlPoints": null,
@@ -806,13 +834,13 @@
           "source": "user_node",
           "target": "sys_1774682182754",
           "label": "Linked API",
-          "__indexColor": "#300064",
+          "__indexColor": "#b8006a",
           "__photons": [
             {
-              "__progressRatio": 0.5450000000000017
+              "__progressRatio": 0.4450000000000023
             },
             {
-              "__progressRatio": 0.045000000000001775
+              "__progressRatio": 0.9450000000000025
             }
           ],
           "index": 22,
@@ -822,13 +850,13 @@
           "source": "user_node",
           "target": "sys_1774682187412",
           "label": "Linked API",
-          "__indexColor": "#1c0065",
+          "__indexColor": "#a4006b",
           "__photons": [
             {
-              "__progressRatio": 0.5450000000000017
+              "__progressRatio": 0.4450000000000023
             },
             {
-              "__progressRatio": 0.045000000000001775
+              "__progressRatio": 0.9450000000000025
             }
           ],
           "__controlPoints": null,
@@ -838,13 +866,13 @@
           "source": "user_node",
           "target": "sys_1774682211196",
           "label": "Linked API",
-          "__indexColor": "#080066",
+          "__indexColor": "#90006c",
           "__photons": [
             {
-              "__progressRatio": 0.5450000000000017
+              "__progressRatio": 0.4450000000000023
             },
             {
-              "__progressRatio": 0.045000000000001775
+              "__progressRatio": 0.9450000000000025
             }
           ],
           "__controlPoints": null,
@@ -853,6 +881,38 @@
         {
           "source": "user_node",
           "target": "sys_1774683234134",
+          "label": "Linked API",
+          "__indexColor": "#7c006d",
+          "__photons": [
+            {
+              "__progressRatio": 0.4450000000000023
+            },
+            {
+              "__progressRatio": 0.9450000000000025
+            }
+          ],
+          "__controlPoints": null,
+          "index": 25
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774689035081",
+          "label": "Linked API",
+          "__indexColor": "#68006e",
+          "__photons": [
+            {
+              "__progressRatio": 0.4450000000000023
+            },
+            {
+              "__progressRatio": 0.9450000000000025
+            }
+          ],
+          "__controlPoints": null,
+          "index": 26
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774689564720",
           "label": "Linked API"
         }
       ]
@@ -867,10 +927,270 @@
           "group": "User",
           "val": 8,
           "color": "#f0f6fc",
-          "desc": "Starting Node"
+          "desc": "Starting Node",
+          "__indexColor": "#ec0001",
+          "index": 0,
+          "x": -0.26746711602058804,
+          "y": 1.1842698736930592,
+          "vx": -0.02688157718886057,
+          "vy": 0.13286423566022765
+        },
+        {
+          "id": "sys_1774685812488",
+          "name": "Integrations API 98",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#d80002",
+          "index": 1,
+          "x": -27.24813023135532,
+          "y": 22.77316198081589,
+          "vx": -0.19907361409263277,
+          "vy": -0.0729186669133708
+        },
+        {
+          "id": "sys_1774685813094",
+          "name": "Integrations API 75",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#b00004",
+          "index": 2,
+          "x": 0.8163915481434945,
+          "y": -32.92452575382359,
+          "vx": -0.25308923569171576,
+          "vy": 0.11617911074487375
+        },
+        {
+          "id": "sys_1774685813632",
+          "name": "Integrations API 52",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#740007",
+          "index": 3,
+          "x": 24.6082125599834,
+          "y": 24.518392039688464,
+          "vx": -0.1466747082350175,
+          "vy": 0.24535192684411608
+        },
+        {
+          "id": "sys_1774685813888",
+          "name": "Integrations API 12",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#24000b",
+          "index": 4,
+          "x": -34.42252706506383,
+          "y": -2.311595718438922,
+          "vx": -0.03826564376182113,
+          "vy": 0.07157915585304674
+        },
+        {
+          "id": "sys_1774685814090",
+          "name": "Integrations API 45",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#c00010",
+          "index": 5,
+          "x": 23.636279135865962,
+          "y": -23.459603966026606,
+          "vx": -0.33406039945594274,
+          "vy": -0.15517994237514363
+        },
+        {
+          "id": "sys_1774685814307",
+          "name": "Integrations API 38",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#480016",
+          "index": 6,
+          "x": 0.02692176230871457,
+          "y": 35.35326699263827,
+          "vx": -0.3378077861129911,
+          "vy": 0.13038758340075687
+        },
+        {
+          "id": "sys_1774685814502",
+          "name": "Integrations API 43",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#bc001d",
+          "index": 7,
+          "x": -22.554691466778714,
+          "y": -24.811484689744024,
+          "vx": -0.17743343284014193,
+          "vy": 0.22488770357749352
+        },
+        {
+          "id": "sys_1774685814690",
+          "name": "Integrations API 92",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database.",
+          "__indexColor": "#1c0025",
+          "index": 8,
+          "x": 33.89854081486526,
+          "y": 0.3962159254714091,
+          "vx": 0.006816339327493826,
+          "vy": 0.024945577481941882
+        },
+        {
+          "id": "sys_1774685814892",
+          "name": "Integrations API 33",
+          "group": "System",
+          "val": 6,
+          "color": "#f59e0b",
+          "desc": "Dynamically generated linked node via local database."
         }
       ],
-      "links": []
+      "links": [
+        {
+          "source": "user_node",
+          "target": "sys_1774685812488",
+          "label": "Linked API",
+          "__indexColor": "#080026",
+          "__photons": [
+            {
+              "__progressRatio": 0.075
+            },
+            {
+              "__progressRatio": 0.5750000000000001
+            }
+          ],
+          "__controlPoints": null,
+          "index": 0
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774685813094",
+          "label": "Linked API",
+          "__indexColor": "#f40027",
+          "__photons": [
+            {
+              "__progressRatio": 0.075
+            },
+            {
+              "__progressRatio": 0.5750000000000001
+            }
+          ],
+          "__controlPoints": null,
+          "index": 1
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774685813632",
+          "label": "Linked API",
+          "__indexColor": "#e00028",
+          "__photons": [
+            {
+              "__progressRatio": 0.075
+            },
+            {
+              "__progressRatio": 0.5750000000000001
+            }
+          ],
+          "__controlPoints": null,
+          "index": 2
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774685813888",
+          "label": "Linked API",
+          "__indexColor": "#cc0029",
+          "__photons": [
+            {
+              "__progressRatio": 0.075
+            },
+            {
+              "__progressRatio": 0.5750000000000001
+            }
+          ],
+          "__controlPoints": null,
+          "index": 3
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774685814090",
+          "label": "Linked API",
+          "__indexColor": "#b8002a",
+          "__photons": [
+            {
+              "__progressRatio": 0.075
+            },
+            {
+              "__progressRatio": 0.5750000000000001
+            }
+          ],
+          "__controlPoints": null,
+          "index": 4
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774685814307",
+          "label": "Linked API",
+          "__indexColor": "#a4002b",
+          "__photons": [
+            {
+              "__progressRatio": 0.075
+            },
+            {
+              "__progressRatio": 0.5750000000000001
+            }
+          ],
+          "__controlPoints": null,
+          "index": 5
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774685814502",
+          "label": "Linked API",
+          "__indexColor": "#90002c",
+          "__photons": [
+            {
+              "__progressRatio": 0.075
+            },
+            {
+              "__progressRatio": 0.5750000000000001
+            }
+          ],
+          "__controlPoints": null,
+          "index": 6
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774685814690",
+          "label": "Linked API",
+          "__indexColor": "#7c002d",
+          "__photons": [
+            {
+              "__progressRatio": 0.075
+            },
+            {
+              "__progressRatio": 0.5750000000000001
+            }
+          ],
+          "__controlPoints": null,
+          "index": 7
+        },
+        {
+          "source": "user_node",
+          "target": "sys_1774685814892",
+          "label": "Linked API"
+        }
+      ]
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

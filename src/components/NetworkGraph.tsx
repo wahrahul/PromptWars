@@ -4,10 +4,11 @@ import type { GraphData, GraphNode } from '../types';
 
 interface NetworkGraphProps {
   data: GraphData;
-  onNodeClick: (node: GraphNode) => void;
+  selectedNodeIds: string[];
+  onNodeClick: (node: GraphNode, isMultiSelect: boolean) => void;
 }
 
-const NetworkGraph: React.FC<NetworkGraphProps> = ({ data, onNodeClick }) => {
+const NetworkGraph: React.FC<NetworkGraphProps> = ({ data, selectedNodeIds, onNodeClick }) => {
   const fgRef = useRef<any>(null);
   const [dimensions, setDimensions] = useState({ width: 800, height: 600 });
   const containerRef = useRef<HTMLDivElement>(null);
@@ -53,8 +54,9 @@ const NetworkGraph: React.FC<NetworkGraphProps> = ({ data, onNodeClick }) => {
         linkColor={() => 'rgba(255,255,255,0.2)'}
         linkDirectionalParticles={2}
         linkDirectionalParticleSpeed={(d: any) => d.value * 0.001 || 0.005}
-        onNodeClick={(node) => onNodeClick(node as GraphNode)}
+        onNodeClick={(node, event) => onNodeClick(node as GraphNode, event.shiftKey || event.ctrlKey || event.metaKey)}
         nodeCanvasObject={(node: any, ctx, globalScale) => {
+          if (isNaN(node.x) || isNaN(node.y)) return;
           const label = node.name;
           const fontSize = 12/globalScale;
           ctx.font = `${fontSize}px Inter, Sans-Serif`;
@@ -68,12 +70,23 @@ const NetworkGraph: React.FC<NetworkGraphProps> = ({ data, onNodeClick }) => {
           ctx.fillStyle = node.color || '#fff';
           ctx.fill();
           
-          // Halo for Gemini Core
           if(node.group === 'GeminiCore') {
               ctx.beginPath();
-              ctx.arc(node.x, node.y, (node.val || 5) + 2, 0, 2 * Math.PI, false);
+              ctx.arc(node.x, node.y, (node.val || 5) + 3, 0, 2 * Math.PI, false);
+              ctx.lineWidth = 1/globalScale;
               ctx.strokeStyle = 'rgba(88, 166, 255, 0.4)';
               ctx.stroke();
+          }
+
+          // Active Selection Halo
+          if(selectedNodeIds.includes(node.id)) {
+              ctx.beginPath();
+              ctx.arc(node.x, node.y, (node.val || 5) + 5, 0, 2 * Math.PI, false);
+              ctx.setLineDash([2, 2]);
+              ctx.strokeStyle = '#fff';
+              ctx.lineWidth = 2/globalScale;
+              ctx.stroke();
+              ctx.setLineDash([]); // Reset
           }
 
           ctx.fillStyle = 'rgba(22, 27, 34, 0.8)';

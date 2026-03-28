@@ -6,6 +6,10 @@ export const api = {
     const res = await fetch(`${BASE_URL}/users?username=${username}`);
     return res.json();
   },
+  getAllUsers: async () => {
+    const res = await fetch(`${BASE_URL}/users`);
+    return res.json();
+  },
   createUser: async (userData: any) => {
     const res = await fetch(`${BASE_URL}/users`, {
       method: 'POST',

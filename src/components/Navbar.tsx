@@ -1,16 +1,15 @@
-import React from 'react';
-import { Search, Bell, User, LayoutDashboard, LogOut } from 'lucide-react';
+import { Search, User, LayoutDashboard, LogOut } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
+import { useNotification } from '../context/NotificationContext';
 import { useNavigate } from 'react-router-dom';
 
-const Navbar: React.FC = () => {
-  const { user, logout } = useAuth();
-  const navigate = useNavigate();
+interface NavbarProps {
+  onLogout: () => void;
+}
 
-  const handleLogout = () => {
-    logout();
-    navigate('/login');
-  };
+const Navbar: React.FC<NavbarProps> = ({ onLogout }) => {
+  const { user } = useAuth();
+  const { notifications, clearNotifications } = useNotification();
 
   return (
     <nav className="navbar glass-panel">
@@ -27,15 +26,40 @@ const Navbar: React.FC = () => {
       </div>
       
       <div className="navbar-actions">
-        <button className="icon-btn" title="Notifications"><Bell size={18} /></button>
+        <div style={{ position: 'relative', display: 'flex', alignItems: 'center' }}>
+          <button className="icon-btn" title="Acknowledge Notifications" onClick={clearNotifications}>
+            <span className="material-icons" style={{ fontSize: '20px' }}>notifications</span>
+          </button>
+          {notifications.length > 0 && (
+            <span style={{
+              position: 'absolute',
+              top: '-2px',
+              right: '-2px',
+              background: '#ef4444',
+              color: '#fff',
+              fontSize: '10px',
+              fontWeight: 800,
+              width: '16px',
+              height: '16px',
+              borderRadius: '50%',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              border: '2px solid var(--bg-color)',
+              boxShadow: '0 0 10px rgba(239, 68, 68, 0.5)'
+            }}>
+              {notifications.length}
+            </span>
+          )}
+        </div>
         <button className="user-profile-btn" title="Profile">
           <div className="avatar">
             <User size={18} color="#fff" />
           </div>
           <span className="user-name">{user?.username || 'Guest'}</span>
         </button>
-        <button className="icon-btn" title="Logout" onClick={handleLogout} style={{ marginLeft: '1rem' }}>
-          <LogOut size={18} color="var(--system-health)" />
+        <button className="icon-btn" title="Logout" onClick={onLogout} style={{ marginLeft: '1rem' }}>
+          <LogOut size={18} color="#f87171" style={{ transition: 'all 0.2s', filter: 'drop-shadow(0 0 8px rgba(248, 113, 113, 0.2))' }} />
         </button>
       </div>
     </nav>

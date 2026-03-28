@@ -1,5 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './context/AuthContext';
+import { NotificationProvider } from './context/NotificationContext';
+import NotificationStack from './components/NotificationStack';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import DashboardLayout from './pages/DashboardLayout';
@@ -16,28 +18,31 @@ const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
 
 function App() {
   return (
-    <AuthProvider>
-      <Router>
-        <Routes>
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
-          <Route 
-            path="/dashboard" 
-            element={
-              <ProtectedRoute>
-                <DashboardLayout />
-              </ProtectedRoute>
-            } 
-          >
-            <Route index element={<Navigate to="overview" replace />} />
-            <Route path="overview" element={<OverviewView />} />
-            <Route path="graph" element={<GraphView />} />
-            <Route path="hooks" element={<SystemHooksView />} />
-          </Route>
-          <Route path="*" element={<Navigate to="/dashboard/overview" />} />
-        </Routes>
-      </Router>
-    </AuthProvider>
+    <NotificationProvider>
+      <AuthProvider>
+        <Router>
+          <NotificationStack />
+          <Routes>
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
+            <Route 
+              path="/dashboard" 
+              element={
+                <ProtectedRoute>
+                  <DashboardLayout />
+                </ProtectedRoute>
+              } 
+            >
+              <Route index element={<Navigate to="overview" replace />} />
+              <Route path="overview" element={<OverviewView />} />
+              <Route path="graph" element={<GraphView />} />
+              <Route path="hooks" element={<SystemHooksView />} />
+            </Route>
+            <Route path="*" element={<Navigate to="/dashboard/overview" />} />
+          </Routes>
+        </Router>
+      </AuthProvider>
+    </NotificationProvider>
   );
 }
 
