@@ -1,7 +1,6 @@
 import { Search, User, LayoutDashboard, LogOut } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { useNotification } from '../context/NotificationContext';
-import { useNavigate } from 'react-router-dom';
 
 interface NavbarProps {
   onLogout: () => void;

@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import TopBar from '../components/TopBar';
 import SidebarNav from '../components/SidebarNav';
 import SyncConsole from '../components/SyncConsole';
+import InsightPanel from '../components/InsightPanel';
 import { useAuth } from '../context/AuthContext';
 import { useNotification } from '../context/NotificationContext';
 import { api } from '../utils/api';
@@ -93,6 +94,7 @@ const DashboardLayout: React.FC = () => {
         <main className="dashboard-content" style={{ flex: 1, overflowY: 'auto' }}>
           <Outlet context={{ user, graphData, setGraphData, addMockConnection, dbRecordId }} />
         </main>
+        <InsightPanel />
       </div>
       <SyncConsole />
 

@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import type { GraphNode } from '../types';
-import { Activity, ExternalLink, Network, Database, ShieldAlert, Cpu, CheckCircle, Sparkles, AlertCircle, Link2 } from 'lucide-react';
+import { Activity, Network, Database, ShieldAlert, Cpu, CheckCircle, Sparkles, AlertCircle, Link2, WifiOff, KeyRound } from 'lucide-react';
 import { getAiInsight, getSynergyAnalysis } from '../lib/gemini';
+
+const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
+const isKeyConfigured = API_KEY && API_KEY !== 'YOUR_API_KEY_HERE' && API_KEY.trim() !== '';
 
 interface ActionPanelProps {
   selectedNodes: GraphNode[];
@@ -74,7 +77,8 @@ const ActionPanel: React.FC<ActionPanelProps> = ({ selectedNodes }) => {
             <span style={{color: '#a855f7'}}>●</span> Auth Service Active
           </p>
           <p style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginTop: '0.4rem', color: 'var(--text-secondary)', fontSize: '0.85rem' }}>
-            <span style={{color: '#3b82f6'}}>●</span> Gemini Engine Ready
+            <span style={{color: isKeyConfigured ? '#10b981' : '#f59e0b'}}>●</span>
+            {isKeyConfigured ? 'Gemini Engine Active' : 'Gemini Engine Offline'}
           </p>
         </div>
         <div style={{ marginTop: '1.5rem', color: 'var(--text-secondary)', fontSize: '0.8rem', fontStyle: 'italic' }}>
@@ -151,49 +155,41 @@ const ActionPanel: React.FC<ActionPanelProps> = ({ selectedNodes }) => {
         )}
       </div>
 
-      {(aiInsight || aiError || isAiLoading) && (
-        <div className="glass-panel" style={{ 
-          marginTop: '1.25rem', 
-          padding: '1.5rem', 
-          position: 'relative',
-          overflow: 'hidden',
-          border: `1px solid ${aiError ? 'rgba(239, 68, 68, 0.3)' : 'rgba(168, 85, 247, 0.3)'}`, 
-          background: aiError ? 'rgba(239, 68, 68, 0.05)' : 'rgba(168, 85, 247, 0.05)',
-          boxShadow: aiError ? 'none' : '0 0 30px -10px rgba(168, 85, 247, 0.2)'
-        }}>
-          {isAiLoading && (
-            <div style={{
-              position: 'absolute',
-              top: 0,
-              left: 0,
-              width: '100%',
-              height: '2px',
-              background: 'linear-gradient(90deg, transparent, var(--accent-color), transparent)',
-              animation: 'scanLine 1.5s infinite linear'
-            }} />
-          )}
-
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', marginBottom: '1rem', color: aiError ? '#f87171' : 'var(--accent-color)' }}>
-            {aiError ? <AlertCircle size={16} /> : <Sparkles size={16} className={isAiLoading ? 'animate-spin' : ''} />}
-            <span style={{ fontSize: '0.75rem', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.15em' }}>
-              {aiError ? 'Engine Error' : isAiLoading ? 'Synthesizing...' : selectedNodes.length === 2 ? 'Synergy Report' : 'Gemini Inference'}
-            </span>
+      {(aiInsight || aiError || isAiLoading) && (() => {
+        const isOfflineMsg = aiInsight?.startsWith('⚡');
+        const borderColor = aiError ? 'rgba(239,68,68,0.3)' : isOfflineMsg ? 'rgba(245,158,11,0.3)' : 'rgba(168,85,247,0.3)';
+        const bgColor = aiError ? 'rgba(239,68,68,0.05)' : isOfflineMsg ? 'rgba(245,158,11,0.04)' : 'rgba(168,85,247,0.05)';
+        const headerColor = aiError ? '#f87171' : isOfflineMsg ? '#f59e0b' : 'var(--accent-color)';
+        return (
+          <div className="glass-panel" style={{ marginTop: '1.25rem', padding: '1.5rem', position: 'relative', overflow: 'hidden', border: `1px solid ${borderColor}`, background: bgColor, boxShadow: isOfflineMsg || aiError ? 'none' : '0 0 30px -10px rgba(168,85,247,0.2)' }}>
+            {isAiLoading && (
+              <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '2px', background: 'linear-gradient(90deg, transparent, var(--accent-color), transparent)', animation: 'scanLine 1.5s infinite linear' }} />
+            )}
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', marginBottom: '1rem', color: headerColor }}>
+              {aiError ? <AlertCircle size={16} /> : isOfflineMsg ? <WifiOff size={16} /> : <Sparkles size={16} className={isAiLoading ? 'animate-spin' : ''} />}
+              <span style={{ fontSize: '0.75rem', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.15em' }}>
+                {aiError ? 'Engine Error' : isOfflineMsg ? 'Engine Offline' : isAiLoading ? 'Synthesizing...' : selectedNodes.length === 2 ? 'Synergy Report' : 'Gemini Inference'}
+              </span>
+            </div>
+            <div style={{ fontSize: isOfflineMsg ? '0.82rem' : '0.95rem', color: aiError ? '#f87171' : isOfflineMsg ? '#f59e0b' : '#fff', lineHeight: '1.7', opacity: isAiLoading ? 0.5 : 1, transition: 'opacity 0.3s', whiteSpace: 'pre-wrap', fontFamily: isOfflineMsg ? 'monospace' : 'inherit' }}>
+              {isAiLoading ? 'Recalibrating quantum bridges... Analyzing social topology...' : (aiError || aiInsight)}
+            </div>
+            {isOfflineMsg && (
+              <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', marginTop: '1rem', padding: '0.5rem 1rem', background: 'rgba(245,158,11,0.1)', border: '1px solid rgba(245,158,11,0.3)', borderRadius: '8px', color: '#f59e0b', fontSize: '0.78rem', fontWeight: 600, textDecoration: 'none' }}>
+                <KeyRound size={13} /> Get Free Gemini API Key →
+              </a>
+            )}
+            <style>{`
+              @keyframes scanLine {
+                0% { transform: translateY(-2px); opacity: 0; }
+                10% { opacity: 1; }
+                90% { opacity: 1; }
+                100% { transform: translateY(200px); opacity: 0; }
+              }
+            `}</style>
           </div>
-          
-          <div style={{ fontSize: '0.95rem', color: aiError ? '#f87171' : '#fff', lineHeight: '1.7', opacity: isAiLoading ? 0.5 : 1, transition: 'opacity 0.3s' }}>
-            {isAiLoading ? 'Recalibrating quantum bridges... Analyzing social topology...' : (aiError || aiInsight)}
-          </div>
-
-          <style>{`
-            @keyframes scanLine {
-              0% { transform: translateY(-2px); opacity: 0; }
-              10% { opacity: 1; }
-              90% { opacity: 1; }
-              100% { transform: translateY(200px); opacity: 0; }
-            }
-          `}</style>
-        </div>
-      )}
+        );
+      })()}
     </aside>
   );
 };

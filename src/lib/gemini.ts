@@ -1,11 +1,15 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
-const genAI = new GoogleGenerativeAI(API_KEY || "");
+const isKeyMissing = !API_KEY || API_KEY === 'YOUR_API_KEY_HERE' || API_KEY.trim() === '';
+
+const genAI = new GoogleGenerativeAI(API_KEY || "placeholder");
+
+const MISSING_KEY_MESSAGE = `⚡ Gemini AI Engine Offline — To activate, paste your free API key into the .env file:\n\n1. Visit: https://aistudio.google.com/app/apikey\n2. Click "Create API Key"\n3. Open PromptWar/.env and set:\n   VITE_GEMINI_API_KEY=your_key_here\n4. Restart the dev server (npm start)`;
 
 export const getAiInsight = async (nodeName: string, nodeType: string, nodeDesc: string) => {
-  if (!API_KEY || API_KEY === 'YOUR_API_KEY_HERE') {
-    throw new Error("Gemini API key is missing. Please add VITE_GEMINI_API_KEY to your .env file.");
+  if (isKeyMissing) {
+    return MISSING_KEY_MESSAGE;
   }
 
   try {
@@ -26,13 +30,13 @@ export const getAiInsight = async (nodeName: string, nodeType: string, nodeDesc:
     return response.text();
   } catch (error) {
     console.error("Gemini AI Error:", error);
-    throw error;
+    return "AI Engine encountered an error. Please check your API key and try again.";
   }
 };
 
 export const getSystemSummary = async (graphData: any) => {
-  if (!API_KEY || API_KEY === 'YOUR_API_KEY_HERE') {
-    return "AI insights are currently offline. Please configure your API key to enable high-level system intelligence.";
+  if (isKeyMissing) {
+    return "AI System Verdicts are offline. Configure your Gemini API key to enable real-time network intelligence.";
   }
 
   try {
@@ -53,8 +57,8 @@ export const getSystemSummary = async (graphData: any) => {
 };
 
 export const getSynergyAnalysis = async (nodeA: any, nodeB: any) => {
-  if (!API_KEY || API_KEY === 'YOUR_API_KEY_HERE') {
-    throw new Error("Gemini API key is missing.");
+  if (isKeyMissing) {
+    return MISSING_KEY_MESSAGE;
   }
 
   try {
@@ -74,6 +78,6 @@ export const getSynergyAnalysis = async (nodeA: any, nodeB: any) => {
     return response.text();
   } catch (error) {
     console.error("Synergy Error:", error);
-    throw error;
+    return "AI Engine encountered an error. Please check your API key and try again.";
   }
 };
